@@ -1,3 +1,4 @@
+<!--Courtesy of Doug Finke, @dfinke-->
 <svg width="550" height="350" viewBox="0 0 550 350" fill="none"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -278,7 +279,7 @@
   <g transform="translate(10, 48)" class="msg-2">
     <rect width="370" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I live in Paris where it's supposed to be</text>
-    <text x="15" y="50">31.4° C (88.5° F) and <tspan class="emoji">☀️</tspan> today.</text>
+    <text x="15" y="50">31.3° C (88.3° F) and <tspan class="emoji">☀️</tspan> today.</text>
   </g>
 
   <!-- typing 3 -->
