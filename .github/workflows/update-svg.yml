@@ -1,0 +1,23 @@
+name: Update SVG Workflow
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+
+jobs:
+  update_svg:
+    runs-on: ubuntu-latest
+    env:
+      OPENWEATHERMAP_API_KEY: ${{ secrets.OPENWEATHERMAP_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10
+
+      - name: Run update-svg.py script
+        run: python ./update-svg.py
