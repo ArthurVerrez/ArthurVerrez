@@ -1,1 +1,1 @@
-![Alt text](🐈.svg)
+![Dialog Bubbles](chat.svg)

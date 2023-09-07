@@ -48,5 +48,5 @@ svg = svg.replace("[[WEATHER]]", current_weather_emoji)
 svg = svg.replace("[[DAYOFWEEK]]", time.strftime("%A"))
 
 # Write the new 🐈.svg file
-with open("🐈.svg", "w", encoding="utf8") as f:
+with open("chat.svg", "w", encoding="utf8") as f:
     f.write(svg)
