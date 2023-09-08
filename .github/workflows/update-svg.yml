@@ -3,6 +3,7 @@ name: Update SVG Workflow
 on:
   schedule:
     - cron: "0 */4 * * *"
+  workflow_dispatch:
 
 jobs:
   update_svg:
