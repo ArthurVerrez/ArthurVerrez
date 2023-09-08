@@ -23,3 +23,12 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Run update-svg.py script
         run: python ./update-svg.py
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Arthur Verrez
+          author_email: ${{ secrets.EMAIL }}
+          message: "auto: update chat.svg"
+          add: "*.svg"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
