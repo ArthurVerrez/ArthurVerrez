@@ -27,7 +27,7 @@ jobs:
         uses: EndBug/add-and-commit@v4
         with:
           author_name: Arthur Verrez
-          author_email: ${{ secrets.EMAIL }}
+          author_email: arthurverrez@users.noreply.github.com
           message: "auto: update chat.svg"
           add: "*.svg"
         env:
