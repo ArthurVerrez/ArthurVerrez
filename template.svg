@@ -302,7 +302,7 @@
 
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
-    <rect width="340" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="355" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I'm an AI, Optimization and Cloud lover,</text>
     <text x="15" y="50">working on HPC and LLMs.</text>
   </g>
