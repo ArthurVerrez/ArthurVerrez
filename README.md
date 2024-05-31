@@ -1,1 +1,1 @@
-[![Dialog Bubbles](chat.svg)](https://twitter.com/ArthurVerrez)
+[![Dialog Bubbles](chat.svg)](https://twitter.com/macciedoug)
